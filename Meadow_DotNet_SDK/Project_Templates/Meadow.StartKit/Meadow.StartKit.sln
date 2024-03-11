@@ -15,11 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meadow.Contracts", "..\..\.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meadow.Core", "..\..\..\..\Meadow.Core\source\Meadow.Core\Meadow.Core.csproj", "{EAE1AB54-12B5-4C24-A910-CD04E76F97E4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meadow.Windows", "..\..\..\..\Meadow.Core\source\implementations\windows\Meadow.Windows\Meadow.Windows.csproj", "{E6E6036E-758F-44BD-9E98-5494A30025E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meadow.Mac", "..\..\..\..\Meadow.Core\source\implementations\mac\Meadow.Mac\Meadow.Mac.csproj", "{C672107E-9D7B-4DA1-B777-93C3F367E3F1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meadow.Mac", "..\..\..\..\Meadow.Core\source\implementations\mac\Meadow.Mac\Meadow.Mac.csproj", "{C672107E-9D7B-4DA1-B777-93C3F367E3F1}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meadow.Linux", "..\..\..\..\Meadow.Core\source\implementations\linux\Meadow.Linux\Meadow.Linux.csproj", "{04C99B9E-24A9-4BF6-844A-F2897BF893A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meadow.Linux", "..\..\..\..\Meadow.Core\source\implementations\linux\Meadow.Linux\Meadow.Linux.csproj", "{04C99B9E-24A9-4BF6-844A-F2897BF893A4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meadow.F7", "..\..\..\..\Meadow.Core\source\implementations\f7\Meadow.F7\Meadow.F7.csproj", "{1CF58570-7177-4DA9-9A07-21A6E2BB6E9A}"
 EndProject
@@ -27,9 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meadow.Foundation.Core", ".
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meadow.ProjectLab", "..\..\..\..\Meadow.ProjectLab\Source\Meadow.ProjectLab\Meadow.ProjectLab.csproj", "{59A1F3E4-3383-42F6-9259-75A0F19EBBB1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartKit.RasPi", "StartKit.RasPi\StartKit.RasPi.csproj", "{4D4F21F6-04FC-44EF-8ED8-EC9A51D9BD70}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Displays.WinForms", "..\..\..\..\Meadow.Foundation\Source\Meadow.Foundation.Peripherals\Displays.WinForms\Driver\Displays.WinForms.csproj", "{0277F962-0FBB-476F-A011-E56AECDEA02F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartKit.RasPi", "StartKit.RasPi\StartKit.RasPi.csproj", "{4D4F21F6-04FC-44EF-8ED8-EC9A51D9BD70}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensors.Hid.Keyboard", "..\..\..\..\Meadow.Foundation\Source\Meadow.Foundation.Peripherals\Sensors.Hid.Keyboard\Driver\Sensors.Hid.Keyboard.csproj", "{6920D71F-5183-49B0-ADFF-F7A73D47AC3A}"
 EndProject
@@ -47,9 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensors.Motion.Bmi270", "..
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Displays.Gtk", "..\..\..\..\Meadow.Foundation\Source\Meadow.Foundation.Peripherals\Displays.Gtk\Driver\Displays.Gtk.csproj", "{BE59CED3-3884-47CD-BC74-2EECAE206A8A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meadow.Desktop", "..\..\..\..\Meadow.Core\source\implementations\desktop\Meadow.Desktop\Meadow.Desktop.csproj", "{8410E676-8DCE-468F-90F6-F3EA34C2101A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meadow.Desktop", "..\..\..\..\Meadow.Core\source\implementations\desktop\Meadow.Desktop\Meadow.Desktop.csproj", "{8410E676-8DCE-468F-90F6-F3EA34C2101A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartKit.Desktop", "StartKit.Desktop\StartKit.Desktop.csproj", "{D2FF8785-0BEF-41E8-9FEE-3B78BB7B4FED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartKit.Desktop", "StartKit.Desktop\StartKit.Desktop.csproj", "{D2FF8785-0BEF-41E8-9FEE-3B78BB7B4FED}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroJson", "..\..\..\..\Meadow.Foundation\Source\Meadow.Foundation.Libraries_and_Frameworks\Serialization.MicroJson\Driver\MicroJson.csproj", "{EDDA772C-9D6B-41CF-9FD2-7B054A382AA3}"
 EndProject
@@ -58,6 +54,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Meadow.Logging", "..\..\..\..\Meadow.Logging\Source\Meadow.Logging\lib\Meadow.Logging.csproj", "{E0184AF0-CFC1-411F-BE91-1693D3289558}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sensors.Hid.Xpt2046", "..\..\..\..\Meadow.Foundation\Source\Meadow.Foundation.Peripherals\Sensors.Hid.Xpt2046\Driver\Sensors.Hid.Xpt2046.csproj", "{668B8DFF-47D5-426C-A67B-CC2901F34A11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meadow.Modbus", "..\..\..\..\Meadow.Modbus\src\Meadow.Modbus\Meadow.Modbus.csproj", "{EA807B35-86EF-473E-AA2D-43CC4DBAB5D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,10 +87,6 @@ Global
 		{EAE1AB54-12B5-4C24-A910-CD04E76F97E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAE1AB54-12B5-4C24-A910-CD04E76F97E4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{EAE1AB54-12B5-4C24-A910-CD04E76F97E4}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{E6E6036E-758F-44BD-9E98-5494A30025E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E6E6036E-758F-44BD-9E98-5494A30025E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E6E6036E-758F-44BD-9E98-5494A30025E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E6E6036E-758F-44BD-9E98-5494A30025E0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C672107E-9D7B-4DA1-B777-93C3F367E3F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C672107E-9D7B-4DA1-B777-93C3F367E3F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C672107E-9D7B-4DA1-B777-93C3F367E3F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -125,10 +119,6 @@ Global
 		{4D4F21F6-04FC-44EF-8ED8-EC9A51D9BD70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D4F21F6-04FC-44EF-8ED8-EC9A51D9BD70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D4F21F6-04FC-44EF-8ED8-EC9A51D9BD70}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0277F962-0FBB-476F-A011-E56AECDEA02F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0277F962-0FBB-476F-A011-E56AECDEA02F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0277F962-0FBB-476F-A011-E56AECDEA02F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0277F962-0FBB-476F-A011-E56AECDEA02F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6920D71F-5183-49B0-ADFF-F7A73D47AC3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6920D71F-5183-49B0-ADFF-F7A73D47AC3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6920D71F-5183-49B0-ADFF-F7A73D47AC3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -199,6 +189,10 @@ Global
 		{668B8DFF-47D5-426C-A67B-CC2901F34A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{668B8DFF-47D5-426C-A67B-CC2901F34A11}.Release|Any CPU.Build.0 = Release|Any CPU
 		{668B8DFF-47D5-426C-A67B-CC2901F34A11}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EA807B35-86EF-473E-AA2D-43CC4DBAB5D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA807B35-86EF-473E-AA2D-43CC4DBAB5D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA807B35-86EF-473E-AA2D-43CC4DBAB5D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA807B35-86EF-473E-AA2D-43CC4DBAB5D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,14 +201,12 @@ Global
 		{DC8C4180-9A81-475D-BD64-72E476ED67B1} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{5B137298-CBE6-4D29-B967-DC59284D25E3} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{EAE1AB54-12B5-4C24-A910-CD04E76F97E4} = {CB825FD9-5236-4598-9554-E00DF20F7446}
-		{E6E6036E-758F-44BD-9E98-5494A30025E0} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{C672107E-9D7B-4DA1-B777-93C3F367E3F1} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{04C99B9E-24A9-4BF6-844A-F2897BF893A4} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{1CF58570-7177-4DA9-9A07-21A6E2BB6E9A} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{E0B1F82C-58DB-4BE1-BDFE-0FA7166BE15D} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{59A1F3E4-3383-42F6-9259-75A0F19EBBB1} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{4D4F21F6-04FC-44EF-8ED8-EC9A51D9BD70} = {FC8C2A99-C0A4-4A4E-A3B7-3BFE9F59443D}
-		{0277F962-0FBB-476F-A011-E56AECDEA02F} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{6920D71F-5183-49B0-ADFF-F7A73D47AC3A} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{8FF4CFDA-A525-40AE-A3B1-D5F7945BBE0E} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{8FD1E0C5-BC0B-4BF2-84F7-FACC7F46260C} = {CB825FD9-5236-4598-9554-E00DF20F7446}
@@ -229,6 +221,7 @@ Global
 		{ADA45704-E330-4CAB-A830-4738CC5C9BA7} = {FC8C2A99-C0A4-4A4E-A3B7-3BFE9F59443D}
 		{E0184AF0-CFC1-411F-BE91-1693D3289558} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 		{668B8DFF-47D5-426C-A67B-CC2901F34A11} = {CB825FD9-5236-4598-9554-E00DF20F7446}
+		{EA807B35-86EF-473E-AA2D-43CC4DBAB5D8} = {CB825FD9-5236-4598-9554-E00DF20F7446}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {73207F6E-462F-4239-9133-89E12E562DAB}
