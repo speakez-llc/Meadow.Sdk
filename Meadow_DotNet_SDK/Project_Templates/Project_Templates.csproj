@@ -45,5 +45,6 @@
     <Folder Include="templates\MeadowJetsonNanoCSharp\.template.config\" />
     <Folder Include="templates\MeadowReTerminal\.template.config\" />
     <Folder Include="templates\MeadowDesktopCSharp\.template.config\" />
+    <Folder Include="templates\MeadowDesktopFSharp\.template.config\" />
   </ItemGroup>
 </Project>
